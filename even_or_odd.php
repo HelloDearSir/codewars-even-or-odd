@@ -6,7 +6,7 @@ return $n & 1 ? 'Odd', 'Even';
 
 
 function averages($n) {
-return floor(array_sum($n) / $n)
+return floor(array_sum($n) / sizeof_array($n))
 }
 
 <?
